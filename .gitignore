@@ -1,0 +1,11 @@
+# Defensive: never commit account snapshots or credentials
+.zswitch/
+accounts/
+**/credentials.json
+**/meta.json
+state.json
+
+# Build artifacts
+*.app
+zswitch
+.DS_Store
